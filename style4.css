@@ -1,0 +1,80 @@
+body {
+    background-image: url("bg huaxia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 450px;
+    margin: 50px auto;
+    padding: 30px 25px;
+    box-sizing: border-box;
+
+    background: rgba(255, 255, 255, 0.90);
+    color: #222;
+
+    text-align: center;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.profil img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profil h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.profil h2 {
+    margin-top: 25px;
+}
+
+.profil p {
+    line-height: 1.4;
+}
+
+.hobi {
+    margin-top: 25px;
+}
+
+.hobi h2 {
+    margin-bottom: 15px;
+}
+
+.hobi p {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.sosial {
+    margin-top: 25px;
+}
+
+.sosial h2 {
+    margin-bottom: 15px;
+}
+
+.sosial a {
+    display: inline-block;
+    background: rgb(93, 87, 87);
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    color: #ffffff;
+    text-decoration: none;
+}
